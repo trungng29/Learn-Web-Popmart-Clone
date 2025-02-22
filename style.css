@@ -232,9 +232,23 @@ body {
     font-weight: bolder;
 }
 
+.card-bottom {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.bi-balloon-heart {
+    opacity: 0.5;
+}
+
+.bi-balloon-heart:hover {
+    opacity: 1;
+}
+
 .new-arrivals .new-arrivals-container .col .card .card-body .card-price {
     font-family: Roboto, sans-serif !important;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 25px;
     color: #E60020 !important;
 }
