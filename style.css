@@ -23,7 +23,7 @@ body {
 }
 
 .header .header-logo {
-    display: inline-block;;
+    display: inline-block;
 }
 
 .header .header-logo img {
@@ -111,4 +111,58 @@ body {
 
 .page-body .commercial a {
     color: black;
+}
+
+.page-body .hero-image {
+    display: flex;
+    padding: 40px 0px;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-categories {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+}
+
+.box {
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    /* border-radius: 10px; */
+    flex-basis: 350px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+}
+
+.categories-icon {
+    color: #E60020;
+    display: inline-block !important;
+
+}
+
+.box p {
+    display: inline-block;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10px; */
+}
+
+.categories-card {
+    display: flex;
+    flex-flow: row nowrap;
 }
