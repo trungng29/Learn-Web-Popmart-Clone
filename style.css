@@ -35,30 +35,32 @@ body {
     display: inline-block;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
-.header .header-menu-categories li {
-    display: inline-block;
-    margin-left: 20px;
-    color: black;
-    font-family: Delius, sans-serif;
-    font-weight: bold;
+.header .header-menu-categories a {
+    height: 100%;
+    text-decoration: none;
 }
 
-.header .header-menu-categories li {
+.header .header-menu-categories a li {
     display: inline-block;
     margin-left: 50px;
     color: black;
     font-family: Delius, sans-serif;
     font-weight: bold;
-}
-
-.header .header-menu-categories a li {
     transition: color 0.2s ease-in-out;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .header .header-menu-categories a li:hover {
     color: red;
+    border-bottom: 2px solid #e6001f63;
 }
 
 .header .cart-button {
@@ -140,6 +142,10 @@ body {
     align-items: center;
     height: 200px;
     padding: 20px;
+}
+
+.box:hover {
+    border: 1px solid #E60020;
 }
 
 .categories-icon {
