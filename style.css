@@ -172,3 +172,69 @@ body {
     display: flex;
     flex-flow: row nowrap;
 }
+
+.new-arrivals {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 100px;
+    height: 500px;
+}
+
+.new-arrivals h2 {
+    color: #E60020;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.new-arrivals .new-arrivals-container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100%;
+    gap: 30px;
+}
+
+.new-arrivals .new-arrivals-container .col {
+    height: 100% !important; 
+}
+
+.new-arrivals .new-arrivals-container .col .card {
+    overflow: hidden;
+}
+
+.new-arrivals .new-arrivals-container .col .card:hover {
+    border: 1px solid rgba(0, 0, 0, 0.377);     
+}
+
+.new-arrivals .new-arrivals-container .col .card img {
+    transition: transform 0.4s ease-in-out;
+}
+
+.new-arrivals .new-arrivals-container .col .card:hover img {
+    transform: scale(1.05); 
+}
+
+.new-arrivals .new-arrivals-container .col .card .card-body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.new-arrivals .new-arrivals-container .col .card .card-body .card-title {
+    font-family: Schoolbell, sans-serif !important;
+    font-weight: 400;
+    color: #9f6f00 !important;
+}
+
+.new-arrivals .new-arrivals-container .col .card .card-body .card-info .card-name {
+    font-family: Quicksand, sans-serif !important;
+    font-weight: bolder;
+}
+
+.new-arrivals .new-arrivals-container .col .card .card-body .card-price {
+    font-family: Roboto, sans-serif !important;
+    font-weight: 500;
+    font-size: 20px;
+    color: #E60020 !important;
+}
