@@ -84,6 +84,10 @@ body {
     opacity: 1;
 }
 
+.header .customer .bi-heart:hover {
+    color: #E60020;
+}
+
 .page-body {
     margin-top: 100px;
 }
@@ -207,10 +211,11 @@ body {
 
 .new-arrivals .new-arrivals-container .col .card {
     overflow: hidden;
+    border: 1px solid transparent !important;
 }
 
 .new-arrivals .new-arrivals-container .col .card:hover {
-    border: 1px solid rgba(0, 0, 0, 0.377);     
+    border: 1px solid rgba(0, 0, 0, 0.171) !important;     
 }
 
 .new-arrivals .new-arrivals-container .col .card img {
